@@ -25,7 +25,11 @@
       "Bash(npx vercel *)",
       "Bash(npx vercel@latest --prod /Users/deveshAustralia/Downloads/besmart_vercel)",
       "Bash(npx vercel@32 --prod)",
-      "Bash(npx vercel@32 --prod --yes)"
+      "Bash(npx vercel@32 --prod --yes)",
+      "Bash(cp \"/Users/deveshAustralia/Downloads/20260422_1602_New Video_simple_compose_01kpswgbfpfmxaqb60sfbsahsk.mp4\" \"/Users/deveshAustralia/Downloads/besmart_vercel/public/vid-exterior.mp4\")",
+      "Bash(cp \"/Users/deveshAustralia/Downloads/20260422_1602_New Video_simple_compose_01kpswgbh2eyztjv1dr6nqe6k2.mp4\" \"/Users/deveshAustralia/Downloads/besmart_vercel/public/vid-interior.mp4\")",
+      "Bash(awk 'NR>=1020 && NR<=1035' /Users/deveshAustralia/Downloads/besmart_vercel/src/App.jsx)",
+      "Bash(awk 'NR>=970 && NR<=1045' /Users/deveshAustralia/Downloads/besmart_vercel/src/App.jsx)"
     ]
   }
 }
