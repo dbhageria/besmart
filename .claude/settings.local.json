@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk '/<section id=\"hero\"/,/<\\\\/section>/{if\\(NR>950\\)exit; print NR\": \"$0}' /Users/deveshAustralia/Downloads/besmart_vercel/src/App.jsx)",
+      "Bash(awk '/<section id=\"hero\"/,/<\\\\/section>/{if\\(NR>1100\\)exit; print NR\": \"$0}' /Users/deveshAustralia/Downloads/besmart_vercel/src/App.jsx)",
+      "Bash(awk 'NR>=840 && NR<=890' /Users/deveshAustralia/Downloads/besmart_vercel/src/App.jsx)",
+      "Bash(awk 'NR>=840 && NR<=880' /Users/deveshAustralia/Downloads/besmart_vercel/src/App.jsx)",
+      "Bash(awk 'NR>=838 && NR<=875 && !/base64/' /Users/deveshAustralia/Downloads/besmart_vercel/src/App.jsx)",
+      "Bash(awk 'NR>=1005 && NR<=1025 && !/base64/' /Users/deveshAustralia/Downloads/besmart_vercel/src/App.jsx)",
+      "Bash(awk 'NR>=842 && NR<=872' /Users/deveshAustralia/Downloads/besmart_vercel/src/App.jsx)",
+      "Bash(awk 'NR>=843 && NR<=873' /Users/deveshAustralia/Downloads/besmart_vercel/src/App.jsx)",
+      "Bash(awk 'NR>=867 && NR<=900' /Users/deveshAustralia/Downloads/besmart_vercel/src/App.jsx)",
+      "Bash(python3)",
+      "Bash(awk 'NR>=683 && NR<=712' /Users/deveshAustralia/Downloads/besmart_vercel/src/App.jsx)",
+      "Bash(awk 'NR>=1025 && NR<=1045' /Users/deveshAustralia/Downloads/besmart_vercel/src/App.jsx)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(awk 'NR>=900 && NR<=1025' /Users/deveshAustralia/Downloads/besmart_vercel/src/App.jsx)",
+      "Bash(awk 'NR>=1005 && NR<=1030' /Users/deveshAustralia/Downloads/besmart_vercel/src/App.jsx)",
+      "Bash(awk 'NR>=506 && NR<=620' /Users/deveshAustralia/Downloads/besmart_vercel/src/App.jsx)",
+      "Bash(awk 'NR>=506 && NR<=650' /Users/deveshAustralia/Downloads/besmart_vercel/src/App.jsx)",
+      "Bash(awk 'NR>=638 && NR<=660' /Users/deveshAustralia/Downloads/besmart_vercel/src/App.jsx)",
+      "Bash(npm run *)",
+      "Bash(npm install *)",
+      "Bash(sudo npm *)",
+      "Bash(npx vercel *)",
+      "Bash(npx vercel@latest --prod /Users/deveshAustralia/Downloads/besmart_vercel)",
+      "Bash(npx vercel@32 --prod)",
+      "Bash(npx vercel@32 --prod --yes)"
+    ]
+  }
+}
