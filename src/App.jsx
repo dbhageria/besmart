@@ -902,7 +902,7 @@ function BeSmartV8(){
         }}>
 
           {/* LEFT — Headline + CTA */}
-          <div style={{flex:"1 1 500px",maxWidth:900}}>
+          <div style={{flex:"1 1 500px",width:"100%",maxWidth:"100%"}}>
 
             {/* Live badge */}
             <div style={{animation:"heroFadeIn .6s ease .05s both",marginBottom:28}}>
@@ -995,7 +995,7 @@ function BeSmartV8(){
               ].map(({v,l,delay})=>(
                 <div key={l} style={{animation:`heroFadeUp .6s ease ${delay} both`}}>
                   <div className="proof-num" style={{
-                    fontFamily:"var(--fc)",fontWeight:900,fontSize:22,
+                    fontFamily:"var(--fc)",fontWeight:900,fontSize:26,
                     color:"var(--or-lt)",lineHeight:1,letterSpacing:"-.5px",
                   }}>{v}</div>
                   <div style={{fontSize:10,color:"rgba(255,255,255,0.42)",marginTop:4,letterSpacing:".04em",textTransform:"uppercase"}}>{l}</div>
